@@ -1,7 +1,25 @@
-# Ignorar todas as pastas exceto as com !
+# Ignorar tudo por padrão
 *
+
+# Manter o gitignore
 !.gitignore
+
+# Manter ResQuestionarios e todo conteúdo dentro
 !ResQuestionarios/
+!ResQuestionarios/**/
 !ResQuestionarios/**
+
+# Manter Trabalho 1 e todo conteúdo dentro
 !Trabalho 1/
+!Trabalho 1/**/
 !Trabalho 1/**
+
+# Ignorar arquivos compilados
+*.class
+
+# Ignorar pasta do MySQL Connector (muito pesada)
+ResQuestionarios/src/javaConnector/
+
+# Ignorar arquivos do IntelliJ
+*.iml
+.idea/
